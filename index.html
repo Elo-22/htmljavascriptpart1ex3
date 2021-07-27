@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple Boîte de dialogue d'invite </title>
+    <script type="text/javascript">
+    function getValue(){
+       var Valeur = prompt("saisissez votre nom : ", "votre nom ici");
+       //ici vous pouvez mettre votre code
+       //moi j'affiche une boite d'alerte
+       alert("bonjour : " +  Valeur );
+    }
+    </script>
+    </head>
+    <body>
+    <p>Cliquer sur le bouton "saisie" pour ecrire votre prénom: </p>
+    <form>
+    <input type="button" value="saisie" onclick="getValue();" />
+    </form>
+    </body>
+    </html>
